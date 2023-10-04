@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+.custom-menu .MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiPaper-elevation16 {
+ 	width: 50%;	
+}
+
+.services.account {
+    background: #ff414d;
+    width: 100%;
+    box-shadow: 0 5px 14px -6px rgb(0 0 0 / 27%);
+    color: rgba(255, 255, 255, .9) !important; 
+}
+.services.account .icon span {
+  	color: #fff;
+}
+.services.account .text h2 {
+  	color: #fff;
+}
+.services.account:after {
+    bottom: -80px;
+    right: -70px;
+    opacity: 1;
+}
+.services.dash-let {
+    /* width: 200px; */
+    height: 100%; 
+    display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center;
+    margin: auto;
+}
+.services.account.custom {
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.mt-1 {
+    margin-top: 1rem;
+}
+.pageTitle {
+    text-align: center;
+    font-weight: 700;
+}
+.loader {
+    background-color: #151c26 !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    z-index: 9999999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.loader .MuiLinearProgress-indeterminate {
+    width: 20%;
+}
+.loader img {
+    -webkit-animation: fadeinout 2s infinite forwards;
+    animation: fadeinout 2s infinite forwards;
+    width: 20%;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+.page-header.hero-wrap.hero-wrap-2, .page-header.hero-wrap.hero-wrap-2 .slider-text {
+	height: 500px;
+}
+.login.hero-wrap {
+    background-image: url('./assets/images/bg1.jpg');
+}
+.register.hero-wrap {
+    background-image: url('./assets/images/bg3.jpg');
+}
+.login.hero-wrap .overlay {
+    opacity: .7;
+}
+.register.hero-wrap .overlay {
+    opacity: .8;
+}
+
+.mobile-margin p {
+	text-transform: capitalize;
+}
+.mobile-margin p:nth-child(7) {
+	text-transform: inherit;
+}
+
+@media(max-width: 720px) {
+	.mobile-margin {
+		margin-top: 2rem !important;
+	}
+    .pricing-container > div {
+        margin: .5rem 0;
+    }
+}
+
+.images  .services {
+	margin: 1rem;
+}
+
+p.services {
+    cursor: pointer;
+    height: 15rem;
+    width: 100%;
+    padding: 0;
+}
+p.services a {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.services a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.flutter-btn {
+    display: block !important;
+    margin: 2rem auto !important;
+    padding: 1rem 2rem !important;
+}
+.flutter-btn:focus {
+    box-shadow: none !important;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: .3s;
+    box-shadow: none;
+}
+.card:hover{
+    box-shadow: 0px 3px 3px 3px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.card.pricing {
+    min-height: 410px;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card.pricing > div {
+    flex: 1;
+}
+.pricing h3 {
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+}
+.pricing h5 {
+    font-weight: bold;
+    text-align: center;
+    margin: .5rem 0;
+}
+.pricing h5 span {
+    font-family: sans-serif;
+}
+.pricing p {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.image-delete-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #ff414d !important;
+    z-index: 999;
+}
+p.services:hover .image-delete-btn {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed, .MuiStepIcon-root.MuiStepIcon-active {
+    color: #ff414d !important;
+}
+
+.pricing .btn.btn-primary span {
+    color: #fff !important;
+    font-size: initial !important;
+    line-height: initial !important;
+    margin-left: initial !important;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.listing h3, .listing p span {
+    font-weight: bold;
+}
+.listing-wrap .text div:nth-child(2) {
+    margin: -10px -3px 2px;
+}
+.listing-wrap .text .icon {
+    /* margin-bottom: 5px !important; */
+}
+.listing-wrap .text .icon {
+    margin: 0 !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.listing-wrap .text .icon span {
+    font-size: 8px !important;
+
+}
+
+.listing p {
+    color: #000;
+}
+.terms h5 {
+    font-weight: 900;
+}
+.terms p {
+    color: #000;
+}
+.terms li {
+    list-style: none;
+    margin-bottom: .2rem;
+}
+section {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.contact-owner .btn {
+    margin: 0 1rem;
+}
+.btn {
+    box-shadow: none !important;
+}
+
+.spec-form.reg-form label {
+    display: block;
+    color: #fff;
+}
+.form-group label {
+    color: #000;
+}
+.contactForm .form-group {
+    margin: .5rem auto;
+}
+a {
+    cursor: pointer !important;
+}
+.listing-name, .category-name {
+    font-weight: bold !important;
+    text-transform: capitalize;
+}
+
+.image-gallery-icon.image-gallery-play-button {
+    display: none;
+}

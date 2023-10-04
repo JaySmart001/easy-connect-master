@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?39f3da91e62fbcfd1eed66beefb6cbee") format("truetype"),
+url("./flaticon.woff?39f3da91e62fbcfd1eed66beefb6cbee") format("woff"),
+url("./flaticon.woff2?39f3da91e62fbcfd1eed66beefb6cbee") format("woff2"),
+url("./flaticon.eot?39f3da91e62fbcfd1eed66beefb6cbee#iefix") format("embedded-opentype"),
+url("./flaticon.svg?39f3da91e62fbcfd1eed66beefb6cbee#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-wardrobe:before {
+    content: "\f101";
+}
+.flaticon-church:before {
+    content: "\f102";
+}
+.flaticon-car:before {
+    content: "\f103";
+}
+.flaticon-artist:before {
+    content: "\f104";
+}
+.flaticon-bags:before {
+    content: "\f105";
+}
+.flaticon-architect:before {
+    content: "\f106";
+}
+.flaticon-chef:before {
+    content: "\f107";
+}
+.flaticon-bitcoin:before {
+    content: "\f108";
+}
+.flaticon-chauffeur:before {
+    content: "\f109";
+}
+.flaticon-bucket:before {
+    content: "\f10a";
+}
+.flaticon-disco-ball:before {
+    content: "\f10b";
+}
+.flaticon-cobbler:before {
+    content: "\f10c";
+}
+.flaticon-office-building:before {
+    content: "\f10d";
+}
+.flaticon-tools-and-utensils:before {
+    content: "\f10e";
+}
+.flaticon-writing:before {
+    content: "\f10f";
+}
+.flaticon-engineer:before {
+    content: "\f110";
+}
+.flaticon-cosmetologist:before {
+    content: "\f111";
+}
+.flaticon-dj:before {
+    content: "\f112";
+}
+.flaticon-dentist:before {
+    content: "\f113";
+}
+.flaticon-worker:before {
+    content: "\f114";
+}
+.flaticon-red-carpet:before {
+    content: "\f115";
+}
+.flaticon-to-do-list:before {
+    content: "\f116";
+}
+.flaticon-dummy:before {
+    content: "\f117";
+}
+.flaticon-florist:before {
+    content: "\f118";
+}
+.flaticon-exchange:before {
+    content: "\f119";
+}
+.flaticon-freelance:before {
+    content: "\f11a";
+}
+.flaticon-gadget:before {
+    content: "\f11b";
+}
+.flaticon-woman-with-long-hair:before {
+    content: "\f11c";
+}
+.flaticon-electrical-appliance:before {
+    content: "\f11d";
+}
+.flaticon-tutor:before {
+    content: "\f11e";
+}
+.flaticon-review:before {
+    content: "\f11f";
+}
+.flaticon-maintenance:before {
+    content: "\f120";
+}
+.flaticon-promotion:before {
+    content: "\f121";
+}
+.flaticon-decorating:before {
+    content: "\f122";
+}
+.flaticon-teamwork:before {
+    content: "\f123";
+}
+.flaticon-landlord:before {
+    content: "\f124";
+}
+.flaticon-law:before {
+    content: "\f125";
+}
+.flaticon-lounge:before {
+    content: "\f126";
+}
+.flaticon-makeup:before {
+    content: "\f127";
+}
+.flaticon-doctor:before {
+    content: "\f128";
+}
+.flaticon-employee:before {
+    content: "\f129";
+}
+.flaticon-studio-mixer:before {
+    content: "\f12a";
+}
+.flaticon-suitcase:before {
+    content: "\f12b";
+}
+.flaticon-pedicure:before {
+    content: "\f12c";
+}
+.flaticon-radio-station:before {
+    content: "\f12d";
+}
+.flaticon-realtor:before {
+    content: "\f12e";
+}
+.flaticon-knowledge:before {
+    content: "\f12f";
+}
+.flaticon-milo-venus:before {
+    content: "\f130";
+}
+.flaticon-real-estate:before {
+    content: "\f131";
+}
+.flaticon-facial-treatment:before {
+    content: "\f132";
+}
+.flaticon-supermarket:before {
+    content: "\f133";
+}
+.flaticon-technician:before {
+    content: "\f134";
+}
+.flaticon-truck:before {
+    content: "\f135";
+}
+.flaticon-team:before {
+    content: "\f136";
+}

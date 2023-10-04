@@ -1,0 +1,241 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?39f3da91e62fbcfd1eed66beefb6cbee") format("truetype"),
+url("./flaticon.woff?39f3da91e62fbcfd1eed66beefb6cbee") format("woff"),
+url("./flaticon.woff2?39f3da91e62fbcfd1eed66beefb6cbee") format("woff2"),
+url("./flaticon.eot?39f3da91e62fbcfd1eed66beefb6cbee#iefix") format("embedded-opentype"),
+url("./flaticon.svg?39f3da91e62fbcfd1eed66beefb6cbee#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "wardrobe": "\f101",
+    "church": "\f102",
+    "car": "\f103",
+    "artist": "\f104",
+    "bags": "\f105",
+    "architect": "\f106",
+    "chef": "\f107",
+    "bitcoin": "\f108",
+    "chauffeur": "\f109",
+    "bucket": "\f10a",
+    "disco-ball": "\f10b",
+    "cobbler": "\f10c",
+    "office-building": "\f10d",
+    "tools-and-utensils": "\f10e",
+    "writing": "\f10f",
+    "engineer": "\f110",
+    "cosmetologist": "\f111",
+    "dj": "\f112",
+    "dentist": "\f113",
+    "worker": "\f114",
+    "red-carpet": "\f115",
+    "to-do-list": "\f116",
+    "dummy": "\f117",
+    "florist": "\f118",
+    "exchange": "\f119",
+    "freelance": "\f11a",
+    "gadget": "\f11b",
+    "woman-with-long-hair": "\f11c",
+    "electrical-appliance": "\f11d",
+    "tutor": "\f11e",
+    "review": "\f11f",
+    "maintenance": "\f120",
+    "promotion": "\f121",
+    "decorating": "\f122",
+    "teamwork": "\f123",
+    "landlord": "\f124",
+    "law": "\f125",
+    "lounge": "\f126",
+    "makeup": "\f127",
+    "doctor": "\f128",
+    "employee": "\f129",
+    "studio-mixer": "\f12a",
+    "suitcase": "\f12b",
+    "pedicure": "\f12c",
+    "radio-station": "\f12d",
+    "realtor": "\f12e",
+    "knowledge": "\f12f",
+    "milo-venus": "\f130",
+    "real-estate": "\f131",
+    "facial-treatment": "\f132",
+    "supermarket": "\f133",
+    "technician": "\f134",
+    "truck": "\f135",
+    "team": "\f136",
+);
+
+.flaticon-wardrobe:before {
+    content: map-get($flaticon-map, "wardrobe");
+}
+.flaticon-church:before {
+    content: map-get($flaticon-map, "church");
+}
+.flaticon-car:before {
+    content: map-get($flaticon-map, "car");
+}
+.flaticon-artist:before {
+    content: map-get($flaticon-map, "artist");
+}
+.flaticon-bags:before {
+    content: map-get($flaticon-map, "bags");
+}
+.flaticon-architect:before {
+    content: map-get($flaticon-map, "architect");
+}
+.flaticon-chef:before {
+    content: map-get($flaticon-map, "chef");
+}
+.flaticon-bitcoin:before {
+    content: map-get($flaticon-map, "bitcoin");
+}
+.flaticon-chauffeur:before {
+    content: map-get($flaticon-map, "chauffeur");
+}
+.flaticon-bucket:before {
+    content: map-get($flaticon-map, "bucket");
+}
+.flaticon-disco-ball:before {
+    content: map-get($flaticon-map, "disco-ball");
+}
+.flaticon-cobbler:before {
+    content: map-get($flaticon-map, "cobbler");
+}
+.flaticon-office-building:before {
+    content: map-get($flaticon-map, "office-building");
+}
+.flaticon-tools-and-utensils:before {
+    content: map-get($flaticon-map, "tools-and-utensils");
+}
+.flaticon-writing:before {
+    content: map-get($flaticon-map, "writing");
+}
+.flaticon-engineer:before {
+    content: map-get($flaticon-map, "engineer");
+}
+.flaticon-cosmetologist:before {
+    content: map-get($flaticon-map, "cosmetologist");
+}
+.flaticon-dj:before {
+    content: map-get($flaticon-map, "dj");
+}
+.flaticon-dentist:before {
+    content: map-get($flaticon-map, "dentist");
+}
+.flaticon-worker:before {
+    content: map-get($flaticon-map, "worker");
+}
+.flaticon-red-carpet:before {
+    content: map-get($flaticon-map, "red-carpet");
+}
+.flaticon-to-do-list:before {
+    content: map-get($flaticon-map, "to-do-list");
+}
+.flaticon-dummy:before {
+    content: map-get($flaticon-map, "dummy");
+}
+.flaticon-florist:before {
+    content: map-get($flaticon-map, "florist");
+}
+.flaticon-exchange:before {
+    content: map-get($flaticon-map, "exchange");
+}
+.flaticon-freelance:before {
+    content: map-get($flaticon-map, "freelance");
+}
+.flaticon-gadget:before {
+    content: map-get($flaticon-map, "gadget");
+}
+.flaticon-woman-with-long-hair:before {
+    content: map-get($flaticon-map, "woman-with-long-hair");
+}
+.flaticon-electrical-appliance:before {
+    content: map-get($flaticon-map, "electrical-appliance");
+}
+.flaticon-tutor:before {
+    content: map-get($flaticon-map, "tutor");
+}
+.flaticon-review:before {
+    content: map-get($flaticon-map, "review");
+}
+.flaticon-maintenance:before {
+    content: map-get($flaticon-map, "maintenance");
+}
+.flaticon-promotion:before {
+    content: map-get($flaticon-map, "promotion");
+}
+.flaticon-decorating:before {
+    content: map-get($flaticon-map, "decorating");
+}
+.flaticon-teamwork:before {
+    content: map-get($flaticon-map, "teamwork");
+}
+.flaticon-landlord:before {
+    content: map-get($flaticon-map, "landlord");
+}
+.flaticon-law:before {
+    content: map-get($flaticon-map, "law");
+}
+.flaticon-lounge:before {
+    content: map-get($flaticon-map, "lounge");
+}
+.flaticon-makeup:before {
+    content: map-get($flaticon-map, "makeup");
+}
+.flaticon-doctor:before {
+    content: map-get($flaticon-map, "doctor");
+}
+.flaticon-employee:before {
+    content: map-get($flaticon-map, "employee");
+}
+.flaticon-studio-mixer:before {
+    content: map-get($flaticon-map, "studio-mixer");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon-map, "suitcase");
+}
+.flaticon-pedicure:before {
+    content: map-get($flaticon-map, "pedicure");
+}
+.flaticon-radio-station:before {
+    content: map-get($flaticon-map, "radio-station");
+}
+.flaticon-realtor:before {
+    content: map-get($flaticon-map, "realtor");
+}
+.flaticon-knowledge:before {
+    content: map-get($flaticon-map, "knowledge");
+}
+.flaticon-milo-venus:before {
+    content: map-get($flaticon-map, "milo-venus");
+}
+.flaticon-real-estate:before {
+    content: map-get($flaticon-map, "real-estate");
+}
+.flaticon-facial-treatment:before {
+    content: map-get($flaticon-map, "facial-treatment");
+}
+.flaticon-supermarket:before {
+    content: map-get($flaticon-map, "supermarket");
+}
+.flaticon-technician:before {
+    content: map-get($flaticon-map, "technician");
+}
+.flaticon-truck:before {
+    content: map-get($flaticon-map, "truck");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}

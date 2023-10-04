@@ -1,0 +1,53 @@
+.hero-wrap.header {
+  	/* background-image: url('./assets/images/bg.jpg'); */
+}
+.spec-form {
+	margin: 1rem 1.5rem 2.5rem;
+}
+.spec-form div.form-control {
+    margin: 15px 0px;
+    padding: 0 15px 0 5px;
+    border: 1.5px solid #eee;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.spec-form div.form-control.textarea {
+	height: auto;
+}
+
+.spec-form label {
+	margin-bottom: -1rem;
+	margin-left: .3rem;
+	display: block;
+}
+
+.spec-form input, .spec-form select, .spec-form textarea {
+	border: 0;
+	background-color: transparent;
+	color: #000;
+}
+.spec-form span {
+  	color: #000
+}
+
+.spec-form button {
+    border-radius: 10px;
+}
+.spec-form p.text-center a {
+	color: inherit;
+}
+.spec-form p.text-center a:hover {
+	color: #ff414d;
+}
+
+.error-text {
+	text-align: center;
+	color: brown;
+}
+.success-text {
+	text-align: center;
+	color: green;
+}
